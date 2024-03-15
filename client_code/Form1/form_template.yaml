@@ -1,18 +1,15 @@
 container:
   type: HtmlTemplate
-  properties: {html: "<center style=\"font-style:italic; color:#888; margin: 3em;\"\
-      >\n  (Insert your custom HTML here)\n</center>\n<div anvil-slot=\"default\"\
-      ></div>\n<center style=\"font-style:italic; color:#888; margin: 3em;\">\n  (Insert\
-      \ your custom HTML here)\n</center>\n<div anvil-slot=\"default\"></div>\n<!DOCTYPE\
-      \ html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n   \
-      \ <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width,\
-      \ initial-scale=1, shrink-to-fit=no\">\n    <title>Purple Admin</title>\n  \
-      \  <!-- plugins:css -->\n    <link rel=\"stylesheet\" href=\"assets/vendors/mdi/css/materialdesignicons.min.css\"\
-      >\n    <link rel=\"stylesheet\" href=\"assets/vendors/css/vendor.bundle.base.css\"\
-      >\n    <!-- endinject -->\n    <!-- Plugin css for this page -->\n    <!-- End\
-      \ plugin css for this page -->\n    <!-- inject:css -->\n    <!-- endinject\
-      \ -->\n    <!-- Layout styles -->\n    <link rel=\"stylesheet\" href=\"assets/css/style.css\"\
-      >\n    <!-- End layout styles -->\n    <link rel=\"shortcut icon\" href=\"assets/images/favicon.ico\"\
+  properties: {html: "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <!-- Required\
+      \ meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"\
+      width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <title>Purple\
+      \ Admin</title>\n    <!-- plugins:css -->\n    <link rel=\"stylesheet\" href=\"\
+      assets/vendors/mdi/css/materialdesignicons.min.css\">\n    <link rel=\"stylesheet\"\
+      \ href=\"assets/vendors/css/vendor.bundle.base.css\">\n    <!-- endinject -->\n\
+      \    <!-- Plugin css for this page -->\n    <!-- End plugin css for this page\
+      \ -->\n    <!-- inject:css -->\n    <!-- endinject -->\n    <!-- Layout styles\
+      \ -->\n    <link rel=\"stylesheet\" href=\"assets/css/style.css\">\n    <!--\
+      \ End layout styles -->\n    <link rel=\"shortcut icon\" href=\"assets/images/favicon.ico\"\
       \ />\n  </head>\n  <body>\n    <div class=\"container-scroller\">\n      <div\
       \ class=\"row p-0 m-0 proBanner\" id=\"proBanner\">\n        <div class=\"col-md-12\
       \ p-0 m-0\">\n          <div class=\"card-body card-body-padding d-flex align-items-center\
@@ -443,9 +440,7 @@ container:
       \ src=\"assets/js/misc.js\"></script>\n    <!-- endinject -->\n    <!-- Custom\
       \ js for this page -->\n    <script src=\"assets/js/dashboard.js\"></script>\n\
       \    <script src=\"assets/js/todolist.js\"></script>\n    <!-- End custom js\
-      \ for this page -->\n  </body>\n</html>"}
+      \ for this page -->\n  </body>\n</html>", visible: true}
+  data_bindings: []
 components: []
 is_package: true
-custom_component: false
-properties:
-- {name: prop, type: string, default_value: '', important: true, default_binding_prop: true}
